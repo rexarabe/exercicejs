@@ -79,3 +79,12 @@ for(i=0; i<a.length; i++){
 }
 console.log(a);
 console.log(`----------`);
+
+//Найти максимальный элемент массива
+let maxElem = a[0];
+for(i=0; i<a.length; i++){
+    if (a[i]>maxElem){
+        maxElem = a[i];
+    }
+}
+console.log(`Max of array = `, maxElem);
