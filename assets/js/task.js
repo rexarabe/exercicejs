@@ -47,6 +47,8 @@ console.log('Count of zeros is', countOfZeros);
 // Задача 4. найти максимальную сумму в параъ соседних элементов
 // 2 7 3 9 0 1
 
+
+
 //task1
 console.log(`-------------------`);
 let sumNegElemArray = 0;
@@ -88,3 +90,4 @@ for(i=0; i<a.length; i++){
     }
 }
 console.log(`Max of array = `, maxElem);
+
